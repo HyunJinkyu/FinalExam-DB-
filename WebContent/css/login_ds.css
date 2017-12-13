@@ -1,0 +1,76 @@
+body {
+  background-color:#3498db;
+
+}
+section .text{
+	font-family:Arial;
+}
+section {
+  
+  width: 700px;
+  height: 300px;
+
+  margin: 150px auto 0;
+ border-radius: 30px;
+  background-color: white;
+  border: 10px solid #CCCCCC;
+}
+section table {
+  margin: 0 auto;
+  margin-top:30px;
+}
+section td {
+  height: 40px;
+
+}
+section td .inputBox {
+  width: 150px;
+  margin-left: 20px;
+}
+section input.btn{
+ background: #3498db;
+ float: right;
+ position:relative;
+right:25%;
+top:10px;
+
+width: 80px;
+  height: 70px;
+  border: 1px solid rgba(80, 80, 80, 0.1);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 21px
+  transition: background-color 0.7s;
+  -o-transition: background-color 0.7s;
+  -moz-transition: background-color 0.7s;
+  -webkit-transition: background-color 0.7s;
+}
+section span .register {
+  background: #3498db;
+  width: 350px;
+  height: 30px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-left: 175px;
+
+  font-family: 'Nanum Gothic';
+
+  border: 1px solid rgba(80, 80, 80, 0.1);
+  border-radius: 10px;
+  font-size: 21px
+  transition: background-color 0.7s;
+  -o-transition: background-color 0.7s;
+  -moz-transition: background-color 0.7s;
+  -webkit-transition: background-color 0.7s;
+}
+
+section span .register:hover {
+  background-color: rgb(250, 180, 0);
+  cursor: pointer;
+}
+
+section span .btn:hover {
+  background-color: rgb(250, 180, 0);
+  cursor: pointer;
+}
+
